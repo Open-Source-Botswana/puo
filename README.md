@@ -26,6 +26,17 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 [] - yarn add -D -E @biomejs/biome
 [] - delete eslint files and npm uninstall eslint eslint-config-next
 [] - update script to     "lint": "biome check . --fix"
-
+[] - tailwind config
 
 ## Components
+[] - NavBar
+[] - HeroSection
+[] - GoalsSection
+[] - FeaturesSection
+[] - TranslatorSection
+[] - MilestonesSection
+[] - GetInvolvedSection
+[] - TeamSection
+[] - FAQSection
+[] - WaitlistSection
+[] - Footer
