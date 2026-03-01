@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import { ChevronDownIcon } from "lucide-react";
 
 const greetings = [
 	{ text: "Dumela", lang: "Setswana", x: "8%", y: "18%" },
@@ -69,7 +70,20 @@ export default function HeroSection() {
 					</p>
 
 					<div className="flex flex-col sm:flex-row gap-4 justify-center">
-						<a
+
+						<button
+							onClick={() => {
+								document.getElementById('translator')?.scrollIntoView({
+									behavior: 'smooth'
+								});
+							}}
+
+							className="flex flex-col items-center justify-center w-32 h-32 text-sm bg-primary text-primary-foreground  font-bold bg-gradient-to-r from-crypto-blue to-crypto-purple hover:from-crypto-purple hover:to-crypto-blue text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 animate-pulse-glow group mt-40"
+						>
+							<span className="mb-1">TRY DEMO</span>
+							<ChevronDownIcon className="h-6 w-6 animate-bounce group-hover:translate-y-1 transition-transform" />
+						</button>
+						{/* <a
 							href="#waitlist"
 							className="bg-primary text-primary-foreground px-8 py-3.5 rounded-lg font-semibold text-lg hover:opacity-90 transition"
 						>
@@ -80,10 +94,10 @@ export default function HeroSection() {
 							className="border-2 border-foreground/20 text-foreground px-8 py-3.5 rounded-lg font-semibold text-lg hover:border-primary hover:text-primary transition"
 						>
 							Learn More
-						</a>
+						</a> */}
 					</div>
 				</AnimatedDiv>
-
+{/*
 				<AnimatedDiv
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
@@ -105,7 +119,7 @@ export default function HeroSection() {
 							</div>
 						</div>
 					))}
-				</AnimatedDiv>
+				</AnimatedDiv> */}
 			</div>
 
 			{/* Wave divider */}

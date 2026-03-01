@@ -20,7 +20,7 @@ const Footer = () => {
 				<div className="grid md:grid-cols-3 gap-8 mb-12">
 					<div>
 						<h3 className="text-2xl font-bold mb-3">
-							Open<span className="text-primary">Lang</span>
+							Puo<span className="text-primary">Ai</span>
 						</h3>
 						<p className="text-background/60 text-sm leading-relaxed">
 							Building open datasets and AI tools for Botswana's indigenous

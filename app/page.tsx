@@ -20,7 +20,7 @@ export default async function Home() {
 				<GoalsSection />
 				<FeaturesSection />
 				<ProjectsSection />
-				<TranslatorSection />
+				<TranslatorSection  />
 				<MilestonesSection />
 				<GetInvolvedSection />
 				<TeamSection />
